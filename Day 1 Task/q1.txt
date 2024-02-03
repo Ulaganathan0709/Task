@@ -1,3 +1,8 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2?
+--------------------------------------------------------------------------------------------------------------------
+
+Answers:
+-----------------
 HTTP/1.1: The Long-Standing Standard:
 --------------------------------------------------------------------------------------------------------
     HTTP1.1 has been Standard protocal for web communication since the introduce in 1997.
