@@ -1,0 +1,45 @@
+HTTP/1.1: The Long-Standing Standard:
+--------------------------------------------------------------------------------------------------------
+    HTTP1.1 has been Standard protocal for web communication since the introduce in 1997.
+Separate TCP Connections:
+---------------------
+    Each request to the server requests  a Separate TCP connection.
+Text-Based:
+-----------
+    Commands and headers are in readable text format.
+Head-of-Line Blocking:
+----------------------
+`   Requests are processed one after the other, causing delays if one request takes too long.
+Host Headers: 
+-------------
+    This allowed multiple domains to be hosted from a single IP address, a key feature for shared hosting environments.
+
+Example:
+--------------------------------------------------------------------------------------------------------
+    Imagine you're ordering food at a restaurant. You place an order, wait for it to be prepared and delivered, and only then can you place the next order. This is similar to how HTTP/1.1 handles requests.
+  ------------------------------------------------------------------------------------------------------  
+
+  HTTP/2: A Significant Leap Forward
+  -------------------------------------------------------------------------------------------------------
+    The HTTP2 has been published on 2015.
+Single TCP Connection with Multiple Streams:
+--------------------------------------
+     Multiple requests and responses can be handled over a single connection simultaneously.
+
+Binary Protocol:
+------------------ 
+    This format is more efficient for computers to parse and use.
+
+Server Push:
+-------------
+ The server can send resources to the client before they are explicitly requested.
+
+Stream Prioritization: 
+-----------------------
+Allows important resources to be sent first for better performance.
+
+Example:
+---------
+    Now imagine a restaurant where you can place multiple orders at once, and they are prepared and delivered concurrently. Plus, the chef knows what you usually like and starts preparing some items in advance. This is akin to how HTTP/2 operates.
+
+    
