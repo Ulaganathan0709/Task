@@ -1,0 +1,135 @@
+Write a blog about objects and its internal representation in Javascript?
+-----------------------------------------------------------------------------
+
+How JavaScript Represents Objects Internally?
+-----------------------------------------------
+    JavaScript objects are a bit more complex. When you create an object, JavaScript engine does a few things:
+Stores the Properties in a Table:
+----------------------------------
+     Each object has an associated table (or similar structure) where the keys and values are stored.
+Uses a Reference to Access the Object:
+-------------------------------------- 
+    When you use the object, you're not directly manipulating the actual data structure but a reference to it.
+Dynamic Property Access:
+---------------------------
+     JavaScript objects are dynamic. You can add, modify, and delete properties at runtime.
+JavaScript Objects: Key-Value Pairs
+------------------------------------------
+    In JavaScript an object is a collection of properties and a property is an association between a key (or name) and a value. A key in an object is always a string, but the value can be any data type like 
+     1.number
+     2.string
+     3. array
+     4. function or even another object.
+Internal Representation of Objects:
+--------------------------------------
+    JavaScript engines like V8 (used in Chrome and Node.js) represent objects in a way that optimizes for performance.
+-------------------------------------------------------------------------------------------------------------------------------
+
+Creating an Object
+--------------------
+    Objects can be created in multiple ways:
+
+Object Literals: 
+-----------------
+    The simplest method, using curly braces {}.
+Example Code:
+-------------
+let person = { name: "Ulaga", age: 28 };
+
+--------------------------------------------------------
+Using the new Object() Syntax:
+------------------------------------
+Example Code:
+-------------
+let person = new Object();
+person.name = "Ulaga";
+person.age = 29;
+
+-----------------------
+Constructor Functions:
+-----------------------
+     For creating multiple similar objects.
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+let alice = new Person("Ulaga", 28);
+
+-----------------------------------------------------------------------------------------------------
+simple example of a JavaScript object:
+----------------------------------------
+let person = {
+    name: 'Ulaga',
+    age: 28,
+    zenClassJoined: true
+};
+
+In this person object:
+--------------------------
+
+    The keys are name, age, and zenClassJoined.
+    The corresponding values are 'Ulaga', 28, and true.
+Values data type:
+-------------------
+    'Ulaga' is string 
+     28 is number 
+     true is booleans
+--------------------
+
+Accessing Object Properties:
+-------------------------------
+    we can access the values of an object's properties using either dot notation or bracket notation.
+
+Dot Notation:
+--------------
+    Dot notation is used most commonly for its simplicity and readability.
+
+Example Code:
+--------------
+    console.log(person.name); // Outputs: Ulaga
+    console.log(person.age);  // Outputs: 28
+    console.log(person.zenClassJoined) // Outputs: true
+---------------------------------------------------------------------------------------------------------
+Bracket Notation:
+------------------
+    Bracket notation is useful when the property names are dynamic or not valid identifiers.
+
+Example Code:
+-------------
+    console.log(person['name']); // Outputs: Ulaga
+    console.log(person['age']);  // Outputs: 28
+
+---------------------------------------------------------------------------------------------------------------
+Example of Iterating Over an Object:
+----------------------------------------
+
+for (let key in person) {
+    console.log(`Key: ${key}, Value: ${person[key]}`);
+}
+
+   This loop will output each key-value pair in the person object.
+--------------------------------------------------------------------------------------------------------------
+Adding and Modifying Object Properties:
+-------------------------------------------
+    Objects in JavaScript are dynamic, meaning you can add new properties or modify existing ones after the object is created.
+
+Example Code:
+---------------
+    person.email = 'ulaga@example.com';
+    Now, person has a new property email with the value 'ulaga@example.com'.
+-----------------------------------------------------------------------------------------------------------
+Modifying an Existing Property:
+-------------------------------
+Example Code:
+--------------
+    person.age = 31;
+
+    The value of the age property in the person object is now updated to 31.
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
