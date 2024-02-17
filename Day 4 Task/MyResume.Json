@@ -26,11 +26,13 @@
             "Joing Date": "17-Aug-2023",
             "Reliving Date": "Till in same company",
             "Year of experience": "1.4 years",
-            "Responsibility" : I have worked on Banking payment gatway domain in this domain I have verified Transaction status create transaction and clearing the transactions verifyied the purchaesd amount was successfully credited in merchant account both manuall and automated"FirstCompany"
+            "Responsibility" : "I have worked on Banking payment gatway domain in this domain I have verified Transaction status create transaction and clearing the transactions verifyied the purchaesd amount was successfully credited in merchant account both manuall and automated the payment gateway"
         }
     ],
     "Skills" : [
         "C#",
+        "Cucumber",
+        ".NetFramework",
         "Javascript",
         "Node JS",
         "MangoDB",
