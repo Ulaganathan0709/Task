@@ -1,0 +1,43 @@
+{
+    "PersonalInfo" : {
+        "Name" : "Ulaganathan.A",
+        "PhoneNo": "9944014427",
+        "EmailID" : "Ulaganathan070996@gmail.com",
+        "location" : "Trichy"
+    },
+    "Education" :{
+        "Institute": "Dhanalakshmi Srinivasan Engineering College",
+        "DegreeType": "UG",
+        "Degree" : "B.E.Mechanical Engineer",
+        "Passedout": "2020"
+    },
+    "Workexpriences": [
+        {
+            "FirstCompany" : "Strom It Soluction",
+            "Role" : "Software Tester",
+            "Joing Date": "10-May-2020",
+            "Reliving Date": "10-June-2022",
+            "Year of experience" : "Two years",
+            "Responsibility" : "Conducted comprehensive manual testing for the login page and booking domine and ensure functional correctness Implemented field validations and error message checks for robust user input handling."
+        },
+        {
+            "SecondCompany" : "Art Technologies Software pvt ltd company",
+            "Role": "Consulate Quality Engineer",
+            "Joing Date": "17-Aug-2023",
+            "Reliving Date": "Till in same company",
+            "Year of experience": "1.4 years",
+            "Responsibility" : I have worked on Banking payment gatway domain in this domain I have verified Transaction status create transaction and clearing the transactions verifyied the purchaesd amount was successfully credited in merchant account both manuall and automated"FirstCompany"
+        }
+    ],
+    "Skills" : [
+        "C#",
+        "Javascript",
+        "Node JS",
+        "MangoDB",
+        "AngularJS",
+        "AWS EC2",
+        "Jenkins",
+        "Python"
+    ],
+    "GitHub URl" : "https://github.com/Ulaganathan0709"
+}
