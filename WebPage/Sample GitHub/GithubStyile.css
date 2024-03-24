@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #85c07e;
+  }
+  
+  .navbar {
+    background: #333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo img {
+    height: 40px; /* Adjust this as needed to fit your logo */
+  }
+  
+  .navbar .title {
+    font-size: 30px;
+  }
+  
+  .main-container {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    background: #333;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    padding-left: 50px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px 0;
+  }
+  
+  .search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .search-bar input[type="search"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    border: 1px solid #333;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background: #000;
+    color: black;
+    border: none;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 0;
+  }
+  
+  .box, .wide-box {
+    background: #333;
+    border-radius: 15px; /* Rounded corners for the boxes */
+  }
+  
+  .box {
+    width: calc((100% - 100px) / 3);
+    height: 100px;
+  }
+  
+  .wide-box {
+    height: 100px;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar .logo img {
+      height: 40px; /* Smaller logo on mobile */
+    }
+  
+    .navbar .title {
+      font-size: 24px;
+    }
+  
+    .main-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: 150px; /* Adjust the height for mobile */
+      margin-bottom: 20px;
+    }
+  
+    .content {
+      padding-left: 0;
+    }
+  
+    .box-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .box, .wide-box {
+      width: 100%; /* Full width on mobile */
+      margin-bottom: 20px;
+    }
+  }
+  
