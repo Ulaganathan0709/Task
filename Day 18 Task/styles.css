@@ -1,0 +1,28 @@
+/* Custom styles for a professional look */
+body {
+    background: #f4f4f4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand, .nav-link {
+    cursor: pointer;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+}
+#loading {
+    padding: 20px;
+}
+
+#anime-roles-list .list-group-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
